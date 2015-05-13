@@ -1,0 +1,29 @@
+[20-Aug-2013 08:27:01 Europe/London] PHP Parse error:  syntax error, unexpected end of file in /home/ink/public_www/app/storage/views/968b7ce307ce425a0fa6cfbfce66c214 on line 9
+[17-Jan-2014 18:53:01 Europe/London] PHP Fatal error:  Class 'MasterController' not found in /home/ink/public_www/app/controllers/Api/CartridgeController.php on line 3
+[17-Jan-2014 18:58:48 Europe/London] PHP Fatal error:  Class 'MasterController' not found in /home/ink/public_www/app/controllers/Api/CartridgeController.php on line 3
+[17-Jan-2014 18:59:16 Europe/London] PHP Fatal error:  Class 'MasterController' not found in /home/ink/public_www/app/controllers/Api/CartridgeController.php on line 3
+[17-Jan-2014 19:02:49 Europe/London] PHP Fatal error:  Class 'Api' not found in /home/ink/public_www/app/filters.php on line 40
+[17-Jan-2014 19:18:37 Europe/London] PHP Fatal error:  Class 'Api\Api' not found in /home/ink/public_www/app/controllers/Api/CartridgeController.php on line 8
+[17-Jan-2014 19:18:52 Europe/London] PHP Fatal error:  Call to undefined function Api\first() in /home/ink/public_www/app/controllers/Api/CartridgeController.php on line 8
+[17-Jan-2014 19:19:46 Europe/London] PHP Fatal error:  Class 'Ink\Eloquent' not found in /home/ink/public_www/app/models/Api.php on line 3
+[17-Jan-2014 19:21:03 Europe/London] PHP Fatal error:  Class 'Ink\Request' not found in /home/ink/public_www/app/controllers/Api/CartridgeController.php on line 10
+[17-Jan-2014 19:38:26 Europe/London] PHP Parse error:  syntax error, unexpected '(', expecting ')' in /home/ink/public_www/app/models/ApiLog.php on line 13
+[18-Jan-2014 10:52:09 America/New_York] PHP Warning:  Unterminated comment starting line 57 in /home/ink/public_www/app/config/app.php on line 57
+[18-Jan-2014 10:52:09 America/New_York] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/ink/public_www/app/config/app.php on line 58
+[18-Jan-2014 10:54:14 America/New_York] PHP Parse error:  syntax error, unexpected ''Illuminate\Foundation\Provide' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/ink/public_www/app/config/app.php on line 96
+[19-Jan-2014 10:48:19 Europe/London] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/ink/public_www/app/routes.php on line 49
+[19-Jan-2014 10:48:20 Europe/London] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/ink/public_www/app/routes.php on line 49
+[19-Jan-2014 10:48:25 Europe/London] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/ink/public_www/app/routes.php on line 49
+[19-Jan-2014 11:17:53 Europe/London] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: validator' in /home/ink/public_www/app/routes.php:51
+Stack trace:
+#0 /home/ink/public_www/app/routes.php(51): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/ink/publi...', 51, Array)
+#1 [internal function]: {closure}()
+#2 /home/ink/public_www/bootstrap/compiled.php(8156): call_user_func_array(Object(Closure), Array)
+#3 /home/ink/public_www/bootstrap/compiled.php(8143): Illuminate\Routing\Route->callCallable()
+#4 /home/ink/public_www/bootstrap/compiled.php(4956): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/ink/public_www/bootstrap/compiled.php(534): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ink/public_www/bootstrap/compiled.php(521): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/ink/public_www/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main}
+  thrown in /home/ink/public_www/app/routes.php on line 51
+[19-Jan-2014 11:17:53 Europe/London] PHP Fatal error:  Call to a member function fails() on a non-object in /home/ink/public_www/app/routes.php on line 51

@@ -1,0 +1,46 @@
+body {
+	padding: 50px 0 0;
+}
+
+.greenhood,
+a.greenhood {
+	color: #7DB74A;
+}
+
+.interested {
+	color: #FA503A;
+	text-align: center;
+}
+
+.btn {
+	margin: 13px 0;
+}
+
+header{
+	padding: 0 0 20px;
+}
+
+#main {
+	padding: 0px 0 10px;
+}
+
+#register {
+	padding: 0 0 30px 0;
+}
+
+#demo {
+	padding-bottom: 50px;
+}
+
+#demo-response {
+	margin: 80px 0 0;
+}
+
+.panel-body {
+	word-wrap: break-word;
+}
+
+footer {
+	padding: 40px 0 0;
+	font-size: 11px;
+}
